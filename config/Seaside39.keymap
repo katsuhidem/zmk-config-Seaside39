@@ -65,10 +65,10 @@
 
         default_layer {
             bindings = <
-&kp Q                  &kp W      &kp E         &kp R             &kp T                                                        &kp Y        &kp U       &lt 5 I    &kp O    &lt 6 P
-&kp A                  &kp S      &kp D         &mt LCMD F        &kp G                                                        &kp H        &mt RCMD J  &kp K      &kp L    &kp SEMICOLON
-&mt LEFT_SHIFT Z       &kp X      &kp C         &kp V             &kp B                                                        &kp N        &kp M       &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
-&mt LEFT_SHIFT ESCAPE  &kp LCTRL  &kp LEFT_ALT  &mt LEFT_WIN TAB  &lt 1 SPACE  &lt 2 BACKSPACE      &mt RIGHT_SHIFT BACKSPACE  &lt 2 ENTER                                  &lt 5 MINUS
+&kp Q                &kp W      &kp E         &kp R             &kp T                                                        &kp Y        &kp U       &lt 5 I    &kp O    &lt 6 P
+&kp A                &kp S      &kp D         &mt LCMD F        &kp G                                                        &kp H        &mt RCMD J  &kp K      &kp L    &kp SEMICOLON
+&mt LEFT_SHIFT Z     &kp X      &kp C         &kp V             &kp B                                                        &kp N        &kp M       &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
+&mt LEFT_GUI ESCAPE  &kp LCTRL  &kp LEFT_ALT  &mt LEFT_WIN TAB  &lt 1 SPACE  &lt 2 BACKSPACE      &mt RIGHT_SHIFT BACKSPACE  &lt 2 ENTER                                  &lt 5 MINUS
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -85,10 +85,10 @@
 
         SYMBOL {
             bindings = <
-&kp BACKSLASH  &kp EXCLAMATION  &kp AMPERSAND      &kp PIPE          &kp QUESTION                              &trans                 &kp EQUAL          &kp PLUS         &kp PLUS   &kp PERCENT
-&kp HASH       &kp GRAVE        &kp DOUBLE_QUOTES  &kp SQT           &kp TILDE                                 &kp LEFT               &kp DOWN           &kp UP           &kp RIGHT  &kp SLASH
-&trans         &trans           &kp LEFT_BRACE     &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS                      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp AT     &kp CARET
-&trans         &trans           &trans             &trans            &trans                &trans      &trans  &trans                                                                &trans
+&kp BACKSLASH  &kp EXCLAMATION  &kp AMPERSAND      &kp PIPE          &kp QUESTION                              &trans                 &kp EQUAL          &kp PLUS         &kp ASTERISK  &kp PERCENT
+&kp HASH       &kp GRAVE        &kp DOUBLE_QUOTES  &kp SQT           &kp TILDE                                 &kp LEFT               &kp DOWN           &kp UP           &kp RIGHT     &kp DOLLAR
+&trans         &trans           &kp LEFT_BRACE     &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS                      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp AT        &kp CARET
+&trans         &trans           &trans             &trans            &trans                &trans      &trans  &trans                                                                   &trans
             >;
         };
 
